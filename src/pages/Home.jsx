@@ -15,7 +15,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 py-16 md:py-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -23,7 +23,7 @@ const Home = () => {
           >
             Python-разработчик и Студент
           </motion.span>
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
@@ -33,23 +33,23 @@ const Home = () => {
             Кодом прокладываю <br />
             путь в будущее.
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
             className="text-xl text-gray-500 max-w-lg mb-12 leading-relaxed"
           >
-            Мне 15 лет, я Python-разработчик и в данный момент учусь в школе. 
+            Мне 15 лет, я Python-разработчик и в данный момент учусь в школе.
             Люблю создавать интеллектуальные решения и изучать новые технологии.
           </motion.p>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             className="flex space-x-4"
           >
             <Link to="/portfolio" className="btn-primary flex items-center group">
-              Мои работы 
+              Мои работы
               <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link to="/contact" className="px-6 py-3 rounded-2xl border border-gray-200 hover:border-primary hover:text-primary transition-all font-medium">
@@ -59,15 +59,15 @@ const Home = () => {
         </div>
 
         <div className="relative">
-          <motion.div 
+          <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative z-10 w-full aspect-square rounded-[3rem] overflow-hidden rotate-3 hover:rotate-0 transition-transform duration-700 shadow-2xl"
           >
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
-              alt="Designer Portrait" 
+            <img
+              src="https://images.icon-icons.com/1378/PNG/512/avatardefault_92824.png"
+              alt="Designer Portrait"
               className="w-full h-full object-cover"
             />
           </motion.div>
