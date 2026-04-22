@@ -66,7 +66,7 @@ const Home = () => {
             className="relative z-10 w-full aspect-square rounded-[3rem] overflow-hidden rotate-3 hover:rotate-0 transition-transform duration-700 shadow-2xl"
           >
             <img
-              src="https://images.icon-icons.com/1378/PNG/512/avatardefault_92824.png"
+              src="sandbox:/mnt/data/logo_converted.png"
               alt="Designer Portrait"
               className="w-full h-full object-cover"
             />
