@@ -5,7 +5,7 @@ import Layout from './components/Layout';
 // Lazy loading pages or importing directly
 import Home from './pages/Home';
 import Skills from './pages/Skills';
-import Portfolio from './pages/Portfolio';
+
 import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
 import Contact from './pages/Contact';
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="skills" element={<Skills />} />
-          <Route path="portfolio" element={<Portfolio />} />
+
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:id" element={<BlogDetail />} />
           <Route path="contact" element={<Contact />} />

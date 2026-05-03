@@ -20,7 +20,7 @@ const Footer = () => {
             <h4 className="text-gray-900 font-bold mb-6">Навигация</h4>
             <ul className="space-y-4">
               <li><Link to="/skills" className="text-gray-500 hover:text-primary transition">Навыки</Link></li>
-              <li><Link to="/portfolio" className="text-gray-500 hover:text-primary transition">Портфолио</Link></li>
+
               <li><Link to="/blog" className="text-gray-500 hover:text-primary transition">Блог</Link></li>
             </ul>
           </div>

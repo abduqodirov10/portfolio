@@ -48,10 +48,7 @@ const Home = () => {
             transition={{ delay: 0.5 }}
             className="flex space-x-4"
           >
-            <Link to="/portfolio" className="btn-primary flex items-center group">
-              Мои работы
-              <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Link>
+
             <Link to="/contact" className="px-6 py-3 rounded-2xl border border-gray-200 hover:border-primary hover:text-primary transition-all font-medium">
               Связаться
             </Link>
