@@ -75,11 +75,9 @@ const Skills = () => {
         <h3 className="text-2xl font-bold text-center mb-16 text-gray-400">Инструменты, которые я использую</h3>
         <div className="flex flex-wrap justify-center gap-12 opacity-40 hover:opacity-100 transition-opacity duration-500">
           <span className="text-3xl font-black uppercase tracking-tighter">PYTHON</span>
-          <span className="text-3xl font-black uppercase tracking-tighter">VS CODE</span>
+          <span className="text-3xl font-black uppercase tracking-tighter">JAVASCRIPT</span>
           <span className="text-3xl font-black uppercase tracking-tighter">GITHUB</span>
-          <span className="text-3xl font-black uppercase tracking-tighter">IDLE</span>
-          <span className="text-3xl font-black uppercase tracking-tighter">CMD</span>
-          <span className="text-3xl font-black uppercase tracking-tighter">REACT</span>
+          <span className="text-3xl font-black uppercase tracking-tighter">VS CODE</span>
         </div>
       </div>
     </motion.div>
